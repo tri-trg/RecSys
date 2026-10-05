@@ -19,17 +19,18 @@ RecSys/
 ├── main.py                 # Central execution pipeline
 ├── README.md               # Project documentation
 └── requirements.txt        # Python dependencies
+```
 
 ## Installation & Setup
 
-1. **Clone the repository:**
+**1. Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/RecSys.git
    cd RecSys
    ```
 
-1. **Create and activate a virtual environment:**
+**2. Create and activate a virtual environment:**
 
    ```bash
    python -m venv .venv
@@ -40,7 +41,7 @@ RecSys/
    source .venv/bin/activate
    ```
 
-2. **Install dependencies:**
+**3. Install dependencies:**
 
    ```bash
    pip install -r requirements.txt
@@ -48,8 +49,7 @@ RecSys/
 
 ## Usage
 
-1. **Fetching the Data**
-
+**1. Fetching the Data**
 To securely download and extract the MovieLens 32M dataset into the local `data/` directory, run the fetcher script. The script includes automated chunk streaming, HTTP error handling, and a dynamic progress bar:
 
 ```bash
