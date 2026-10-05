@@ -26,7 +26,7 @@ RecSys/
 **1. Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/RecSys.git
+   git clone https://github.com/tri-trg/RecSys.git
    cd RecSys
    ```
 
